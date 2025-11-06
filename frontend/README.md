@@ -50,6 +50,7 @@ Standard choice for graphql. Has caching built in and handles loading/error stat
 
 **Time constraints meant I didn't do:**
 
+- Better environment variable handling
 - No tests (would normally add jest + react testing library)
 - No search/filter on the asset table
 - No sorting options
