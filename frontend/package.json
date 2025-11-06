@@ -1,0 +1,29 @@
+{
+  "name": "wealth-asset-viewer",
+  "version": "1.0.0",
+  "description": "A React application to view and manage wealth assets using GraphQL",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.8.8",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.19",
+    "@mui/material": "^5.14.19",
+    "graphql": "^16.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.7"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  }
+}
